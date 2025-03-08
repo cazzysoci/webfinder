@@ -141,7 +141,7 @@ class DirectoryScanner:
 async def main():
     clear_screen()
     print_banner()
-    animated_text("Welcome to the Ultimate Injection Scanner by Viper Droid...\n")
+    animated_text("Welcome to the Ultimate Injection Scanner by CazzySoci...\n")
 
     base_url = input("\033[96mEnter the target URL (e.g., http://example.com): \033[0m").strip()
     if not base_url.startswith("http://") and not base_url.startswith("https://"):
