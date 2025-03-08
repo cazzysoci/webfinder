@@ -12,6 +12,7 @@ def clear_screen():
 
 def print_banner():
     banner = f"""
+\033[0;34m
    
 
  ▄████▄   ▄▄▄      ▒███████▒▒███████▒▓██   ██▓  ██████  ▒█████   ▄████▄   ██▓
@@ -29,6 +30,8 @@ def print_banner():
     ║                                                                ║
     ║          ⚡ Ultimate Injection Scanner by CazzySoci ⚡         ║
     ╚════════════════════════════════════════════════════════════════╝
+
+\033[0;34m
     """
     print("\033[92m" + banner + "\033[0m")
 
