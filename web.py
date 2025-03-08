@@ -33,7 +33,7 @@ def print_banner():
 
 \033[0;34m
     """
-    print("\033[92m" + banner + "\033[0m")
+    print("\033[0;31m" + banner + "\033[0;31m")
 
 
 def animated_text(text, delay=0.06):
