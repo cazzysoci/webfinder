@@ -174,7 +174,7 @@ async def main():
         print("\033[92m[~] No vulnerabilities found.\033[0m")
 
     print("\n\033[96m[~] Logs saved in 'injection_scan.log'\033[0m")
-    animated_text("Thank you for using Injection Scanner by Viper Droid!")
+    animated_text("Thank you for using Injection Scanner by CazzySoci!")
 
 
 if __name__ == "__main__":
